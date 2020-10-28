@@ -1,8 +1,6 @@
 # nz.co.fuzion.incompletepaymentalert
 
-![Screenshot](/images/screenshot.png)
-
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
+Send email alerts to admins(or custom email) for incomplete & failed payments recorded in last 1 day.
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
@@ -37,8 +35,6 @@ cv en incompletepaymentalert
 
 ## Usage
 
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
-
-## Known Issues
-
-(* FIXME *)
+- Install the extension. This creates a new scheduled job "Send Incomplete/Failed payment alerts" configured to send daily.
+- Edit the job and enter toName, toEmail, cc value. Save.
+- This should send an email for the payments which are incomplete and failed from last 1 day.
