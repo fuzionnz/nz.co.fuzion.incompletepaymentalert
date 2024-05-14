@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<extension key="nz.co.fuzion.incompletepaymentalert" type="module">
+<extension key="incompletepaymentalert" type="module">
   <file>incompletepaymentalert</file>
   <name>Alerts for Incomplete Payments</name>
   <description>FIXME</description>
@@ -9,9 +9,9 @@
     <email>jitendra@fuzion.co.nz</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://civicrm.org/extensions/alerts-incomplete-payments</url>
+    <url desc="Documentation">https://lab.civicrm.org/extensions/incompletepaymentalert/-/blob/master/README.md</url>
+    <url desc="Support">https://lab.civicrm.org/extensions/incompletepaymentalert</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2020-01-30</releaseDate>
