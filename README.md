@@ -1,4 +1,4 @@
-# nz.co.fuzion.incompletepaymentalert
+# Incomplete Payment Alerts
 
 Send email alerts to admins(or custom email) for incomplete & failed payments recorded in last 1 day.
 
@@ -7,7 +7,7 @@ The extension is licensed under [AGPL-3.0](LICENSE.txt).
 ## Requirements
 
 * PHP v5.4+
-* CiviCRM 5.65.0
+* CiviCRM 5.27+
 
 ## Installation (Web UI)
 
@@ -35,6 +35,6 @@ cv en incompletepaymentalert
 
 ## Usage
 
-- Install the extension. This creates a new scheduled job "Send Incomplete/Failed payment alerts" configured to send daily.
-- Edit the job and enter toName, toEmail, cc value. Save.
-- This should send an email for the payments which are incomplete and failed from last 1 day.
+- Install the extension. This will create a new scheduled job `Send Incomplete/Failed Payment Alerts` configured to be sent daily.
+- Edit the job and enter values for `toName`, `toEmail`, and `cc`. Save the changes.
+- This will trigger an email to be sent for payments that are incomplete or failed within the last day.
